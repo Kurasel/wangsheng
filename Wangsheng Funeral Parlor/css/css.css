@@ -1,0 +1,170 @@
+body {
+	font-family: georgia;
+	color: #214e61;
+	background-color: #e24921;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 3%;
+	margin-bottom:3%;
+	border: 2px solid #e24921;
+	background-image: radial-gradient(circle, #ffe57a, #f8b55c, #de5932);
+}
+
+.inside{
+	background-color: #e9f0f2;
+	margin: 0px;
+	padding: 0px;
+	border: 8px solid #251101;
+	background-image: radial-gradient(circle, #bacdd3, #a3bbc5);
+}
+
+h1	{
+	text-align: center;
+	font-size: 225%;
+	color: #5a1411;
+}
+
+h2 {
+	padding-left: 20px;
+}
+
+h4{
+	font-size: 150%;
+	padding-left: 20px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.centeredparagraph {
+	text-align: center;
+	padding: 15px;
+}
+
+p {
+	padding: 30px;
+}
+
+.box { 
+	background-color: white;
+	color: #5a1411;
+	text-align: center;
+	height: 25px;
+	width: 300px;
+	margin-left: 35%;
+	margin-right: 35%;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #214e61;
+	transition: 0.5s;
+}
+
+.box:hover{
+	height:40px;
+	width: 350px;
+	margin: auto;
+	font-size: 130%;
+	padding-top: 10px;
+	border: 5px solid;
+}
+
+.box2 {
+	background-color: #e9f0f2;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	opacity: 0.8;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 15px;
+	padding-bottom: 40px;
+	transition: 0.5s;
+}
+
+.box2:hover{
+	opacity: 1;
+}
+
+li.box2::marker{
+	font-size: 200%;
+}
+
+.navbar	{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	background-color: #4fb6f5;
+	background-image: radial-gradient(circle, #5a1411 ,#214e61);
+	border-bottom: 3px solid #251101;
+}
+
+#navbar-li{
+	float: left;
+	padding: 15px;
+}
+
+#navbar-li a{
+	color: white;
+	text-decoration: none;
+	font-size: 105%;
+	transition: 0.3s;
+}
+
+#navbar-li a:hover{
+	font-size: 90%;
+	color:#bacdd3;
+}
+
+.logo{
+	float: left;
+	height: 60px;
+	border-right: 3px solid #251101;
+
+}
+
+.map{
+	margin: auto;
+	padding: 0px;
+	width: 100%;
+	border-top: 3px solid #214e61;
+}
+
+ul{
+	list-style-type: square;
+	font-size: 110%;
+	padding-left: 100px;
+	padding-bottom: 50px;
+}
+
+.box2 a{
+	color: red;
+	text-decoration: auto;
+	transition: 0.3s;
+}
+
+.box2 a:hover{
+	color: black;
+}
+
+.icon{
+	width: 150px;
+	float: left;
+	padding-right: 40px;
+	border-radius: 10px 20px;
+	transition: 1s;
+}
+
+.icon:hover{
+	width: 200px;
+}
+
+.disclaimer{
+	color: red;
+}
+
+.disclaimer{
+	padding-top: 0px;
+}
